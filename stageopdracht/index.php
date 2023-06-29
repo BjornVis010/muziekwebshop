@@ -18,7 +18,9 @@
     <h2>om te beginnen met shoppen heeft u een account nodig<a href="register.php">...  registreer hier!</a></h2>
 
     <header>
-    <img src="./img/guitar.jpg" alt="gitaar"><img src="./img/producerkeyboard.webp" alt="producer keyboard">
+    <img src="./img/guitar.jpg" alt="gitaar"><img src="./img/producerkeyboard.webp" alt="producer keyboard"><img src="./img/snare drum.jpg" alt="snare drum">
+    <br>
+    <img src="./img/trompet_feat.jpg" alt="trompet">
     </header>
 
     <footer>

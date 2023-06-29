@@ -5,7 +5,7 @@ body {
     height: 100vh;
     font-size: 62.5%;
     position: relative;
-    background-image: linear-gradient(to bottom left, #0E628A, #B8DDFF, #4C9DCB);
+    background-color: #0E628A;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -97,7 +97,7 @@ img {
 }
 
 input {
-    background-image: linear-gradient(to right, #0E628A, #4C9DCB, #B8DDFF);
+    background-color: #0E628A;
     padding: 2rem;
     margin: 0.5rem;
     width: 30vw;

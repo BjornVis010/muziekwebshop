@@ -66,7 +66,8 @@ if (isset($_GET['remove'])) {
                 <form action="" method="POST">
                     <input type="hidden" name="product_id" value="<?php echo $product['id']; ?>">
                     <input type="hidden" name="product_name" value="<?php echo $product['name']; ?>">
-                    <input type="hidden" name="product_price" value="<?php echo $product['price']; ?>">
+                    <input type="hidden" name="product_price" value="<?php echo '€', $product['price']; ?>">
+                    
                     <button type="submit" name="add_to_cart">Toevoegen aan winkelwagen</button>
                 </form>
             </li>

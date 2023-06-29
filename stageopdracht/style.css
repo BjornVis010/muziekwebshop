@@ -1,0 +1,133 @@
+/* homepagina */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    position: relative;
+    background-image: linear-gradient(to bottom left, #0E628A, #B8DDFF, #4C9DCB);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+nav {
+    width: 99vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    border-style: ridge;
+    border-color: black;
+    background-color: #B8DDFF;
+}
+
+ul {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0E628A;
+}
+
+a:hover {
+    color: #0E221C;
+}
+
+a:visited {
+    color: hidden;
+}
+
+h1 {
+    width: 94vw;
+    padding: 3rem;
+    border-radius: 1rem;
+    border-color: #0E628A;
+    border-style: ridge;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #0E628A;
+    background-color: #B8DDFF;
+}
+  
+h2 {
+    width: 99vw;
+    background-color: #B8DDFF;
+    padding: 2rem;
+    border-radius: 1rem;
+    border-color: black;
+    border-style: ridge;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #0E628A;
+}
+
+footer {
+    background-color: #B8DDFF;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    width: 99vw;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 20vw;
+    border-radius: 1rem;
+}
+
+input {
+    background-image: linear-gradient(to right, #0E628A, #4C9DCB, #B8DDFF);
+    padding: 2rem;
+    margin: 0.5rem;
+    width: 30vw;
+    border-radius: 1rem;
+    color: white;
+    
+}
+
+::placeholder {
+    color: white;
+}
+
+/* shop systeem */
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.product img {
+    width: 99%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.checkoutbutton {
+    width: 99vw;
+    padding: 3rem;
+    background-color: #4C9DCB;
+}
